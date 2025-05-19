@@ -1,3 +1,10 @@
-first run the server.py in one terminal to start the server, them grab the IPv4 of the machine that is running the server.
-open another 2 terminals and run two instances of client.py, put in both the IPv4 from server machine to connect into the server.
-the game should start.
+é necessário ter a biblioteca PyGame instalada, para isso rode no terminal: pip install -U pygame
+caso não funcione, rode: python3 -m pip install -U pygame --user
+
+após instalar a biblioteca pygame, você poderá executar o jogo.
+
+inicie um terminal e nele rode o server.py, dado inicio no servidor, consiga o endereço ipv4 do computdor que está rodando o servidor, ele será utilizado.
+
+depois de rodar o servidor, abra dois terminais e execute o arquivo cliente.py em cada um deles, ambos solicitarão o endereço ipv4, coloque em ambos.
+
+divirta-se
